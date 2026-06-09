@@ -15,6 +15,15 @@
 		056EB4812B4C8B3D00CDE36E /* SystemSoundsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056EB47D2B4C8B3D00CDE36E /* SystemSoundsManager.swift */; };
 		0CEA2EA070AB041AF3E3745B /* BolusRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A0C32B0DAB52726EF9B6D9 /* BolusRootView.swift */; };
 		0D9A5E34A899219C5C4CDFAF /* DataTableStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9455FA2D92E77A6C4AFED8A3 /* DataTableStateModel.swift */; };
+		0DFF83282FD84CF3002ABCCF /* EquilPumpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFF83212FD84CF3002ABCCF /* EquilPumpManager.swift */; };
+		0DFF83292FD84CF3002ABCCF /* EquilCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFF831C2FD84CF3002ABCCF /* EquilCommands.swift */; };
+		0DFF832A2FD84CF3002ABCCF /* EquilCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFF831B2FD84CF3002ABCCF /* EquilCommand.swift */; };
+		0DFF832B2FD84CF3002ABCCF /* EquilBLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFF83182FD84CF3002ABCCF /* EquilBLEManager.swift */; };
+		0DFF832C2FD84CF3002ABCCF /* EquilState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFF831F2FD84CF3002ABCCF /* EquilState.swift */; };
+		0DFF832D2FD84CF3002ABCCF /* EquilEncryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFF83192FD84CF3002ABCCF /* EquilEncryption.swift */; };
+		0DFF832E2FD84CF3002ABCCF /* EquilPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFF831E2FD84CF3002ABCCF /* EquilPod.swift */; };
+		0DFF832F2FD84CF3002ABCCF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DFF83262FD84CF3002ABCCF /* README.md */; };
+		0DFF83302FD84CF3002ABCCF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DFF83252FD84CF3002ABCCF /* Info.plist */; };
 		0F7A65FBD2CD8D6477ED4539 /* NotificationsConfigProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E625985B47742D498CB1681A /* NotificationsConfigProvider.swift */; };
 		17A9D0899046B45E87834820 /* CREditorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D5F457B5AFF763F8CF3DF /* CREditorProvider.swift */; };
 		19012CDC291D2CB900FB8210 /* LoopStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19012CDB291D2CB900FB8210 /* LoopStats.swift */; };
@@ -613,6 +622,15 @@
 		0274EE6439B1C3ED70730D41 /* PumpSettingsEditorDataFlow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PumpSettingsEditorDataFlow.swift; sourceTree = "<group>"; };
 		056EB47D2B4C8B3D00CDE36E /* SystemSoundsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemSoundsManager.swift; sourceTree = "<group>"; };
 		0CA3E609094E064C99A4752C /* PreferencesEditorStateModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PreferencesEditorStateModel.swift; sourceTree = "<group>"; };
+		0DFF83182FD84CF3002ABCCF /* EquilBLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquilBLEManager.swift; sourceTree = "<group>"; };
+		0DFF83192FD84CF3002ABCCF /* EquilEncryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquilEncryption.swift; sourceTree = "<group>"; };
+		0DFF831B2FD84CF3002ABCCF /* EquilCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquilCommand.swift; sourceTree = "<group>"; };
+		0DFF831C2FD84CF3002ABCCF /* EquilCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquilCommands.swift; sourceTree = "<group>"; };
+		0DFF831E2FD84CF3002ABCCF /* EquilPod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquilPod.swift; sourceTree = "<group>"; };
+		0DFF831F2FD84CF3002ABCCF /* EquilState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquilState.swift; sourceTree = "<group>"; };
+		0DFF83212FD84CF3002ABCCF /* EquilPumpManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquilPumpManager.swift; sourceTree = "<group>"; };
+		0DFF83252FD84CF3002ABCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DFF83262FD84CF3002ABCCF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		10A0C32B0DAB52726EF9B6D9 /* BolusRootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BolusRootView.swift; sourceTree = "<group>"; };
 		12204445D7632AF09264A979 /* PreferencesEditorDataFlow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PreferencesEditorDataFlow.swift; sourceTree = "<group>"; };
 		19012CDB291D2CB900FB8210 /* LoopStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopStats.swift; sourceTree = "<group>"; };
@@ -1325,6 +1343,62 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		0DFF831A2FD84CF3002ABCCF /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				0DFF83182FD84CF3002ABCCF /* EquilBLEManager.swift */,
+				0DFF83192FD84CF3002ABCCF /* EquilEncryption.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		0DFF831D2FD84CF3002ABCCF /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				0DFF831B2FD84CF3002ABCCF /* EquilCommand.swift */,
+				0DFF831C2FD84CF3002ABCCF /* EquilCommands.swift */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
+		0DFF83202FD84CF3002ABCCF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0DFF831E2FD84CF3002ABCCF /* EquilPod.swift */,
+				0DFF831F2FD84CF3002ABCCF /* EquilState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0DFF83222FD84CF3002ABCCF /* PumpManager */ = {
+			isa = PBXGroup;
+			children = (
+				0DFF83212FD84CF3002ABCCF /* EquilPumpManager.swift */,
+			);
+			path = PumpManager;
+			sourceTree = "<group>";
+		};
+		0DFF83232FD84CF3002ABCCF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0DFF83272FD84CF3002ABCCF /* EquilKit */ = {
+			isa = PBXGroup;
+			children = (
+				0DFF831A2FD84CF3002ABCCF /* Bluetooth */,
+				0DFF831D2FD84CF3002ABCCF /* Commands */,
+				0DFF83202FD84CF3002ABCCF /* Models */,
+				0DFF83222FD84CF3002ABCCF /* PumpManager */,
+				0DFF83232FD84CF3002ABCCF /* UI */,
+				0DFF83252FD84CF3002ABCCF /* Info.plist */,
+				0DFF83262FD84CF3002ABCCF /* README.md */,
+			);
+			path = EquilKit;
+			sourceTree = "<group>";
+		};
 		0EE66DD474AFFD4FD787D5B9 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -1488,7 +1562,6 @@
 		198377CF266BFEDE004DE65E /* Localizations */ = {
 			isa = PBXGroup;
 			children = (
-				FEBEEC142E03F45B005473DC /* Settings.bundle */,
 				196F58CD2BDCFF80009CBF1B /* InfoPlists */,
 				19D440A926B6FEBD008DA6C8 /* Main */,
 				191D529D2BAB4982003F52E1 /* Shortcuts */,
@@ -2099,6 +2172,7 @@
 				388E595925AD948C0019842D /* Products */,
 				3818AA48274C267000843DB3 /* Frameworks */,
 				192F0FF5276AC36D0085BE4D /* Recovered References */,
+				0DFF83272FD84CF3002ABCCF /* EquilKit */,
 			);
 			sourceTree = "<group>";
 		};
@@ -3275,6 +3349,8 @@
 				F29E5E532EE493A400D2CBC0 /* ai in Resources */,
 				388E596F25AD96040019842D /* javascript in Resources */,
 				B9CAAEFC2AE70836000F68BC /* branch.txt in Resources */,
+				0DFF832F2FD84CF3002ABCCF /* README.md in Resources */,
+				0DFF83302FD84CF3002ABCCF /* Info.plist in Resources */,
 				1927C8E62744606D00347C69 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3628,6 +3704,13 @@
 				F2ACC0332EF87CC800C86FBC /* FoodItemDetailed.swift in Sources */,
 				F2C73D662EB6604500B700AB /* MainChartConfigStateModel.swift in Sources */,
 				5D16287A969E64D18CE40E44 /* PumpConfigStateModel.swift in Sources */,
+				0DFF83282FD84CF3002ABCCF /* EquilPumpManager.swift in Sources */,
+				0DFF83292FD84CF3002ABCCF /* EquilCommands.swift in Sources */,
+				0DFF832A2FD84CF3002ABCCF /* EquilCommand.swift in Sources */,
+				0DFF832B2FD84CF3002ABCCF /* EquilBLEManager.swift in Sources */,
+				0DFF832C2FD84CF3002ABCCF /* EquilState.swift in Sources */,
+				0DFF832D2FD84CF3002ABCCF /* EquilEncryption.swift in Sources */,
+				0DFF832E2FD84CF3002ABCCF /* EquilPod.swift in Sources */,
 				19D466AA29AA3099004D5F33 /* FPUConfigRootView.swift in Sources */,
 				F2EE83BF2E739AD200D7177E /* CalendarShareRootView.swift in Sources */,
 				19D8FBC22ECE79C0009DA31F /* InsulinSummaryView.swift in Sources */,
@@ -3739,7 +3822,6 @@
 				D2165E9D78EFF692C1DED1C6 /* AddTempTargetDataFlow.swift in Sources */,
 				CE82E02728E869DF00473A9C /* AlertEntry.swift in Sources */,
 				38E4451E274DB04600EC9A94 /* AppDelegate.swift in Sources */,
-				198FEED62D3F8C7900A67FAE /* LiveActivityChart.swift in Sources */,
 				5BFA1C2208114643B77F8CEB /* AddTempTargetProvider.swift in Sources */,
 				BD2FF1A02AE29D43005D1C5D /* CheckboxToggleStyle.swift in Sources */,
 				E0D4F80527513ECF00BDF1FE /* HealthKitSample.swift in Sources */,

@@ -46,4 +46,52 @@
    <FileRef
       location = "container:MedtrumKit/MedtrumKit.xcodeproj">
    </FileRef>
+   <Group
+      location = "group:EquilKit"
+      name = "EquilKit">
+      <Group
+         location = "group:UI"
+         name = "UI">
+      </Group>
+      <Group
+         location = "group:PumpManager"
+         name = "PumpManager">
+         <FileRef
+            location = "group:EquilPumpManager.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Models"
+         name = "Models">
+         <FileRef
+            location = "group:EquilPod.swift">
+         </FileRef>
+         <FileRef
+            location = "group:EquilState.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <Group
+         location = "group:Bluetooth"
+         name = "Bluetooth">
+         <FileRef
+            location = "group:EquilEncryption.swift">
+         </FileRef>
+         <FileRef
+            location = "group:EquilBLEManager.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Commands"
+         name = "Commands">
+         <FileRef
+            location = "group:EquilCommands.swift">
+         </FileRef>
+         <FileRef
+            location = "group:EquilCommand.swift">
+         </FileRef>
+      </Group>
+   </Group>
 </Workspace>
